@@ -67,7 +67,7 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 > El 28% de los clientes utiliza más del 80% de su límite disponible.
 
 ![Pie chart](img/uso_credito.png)
-
+   
 ---
 
 ### 📌 2. Comportamiento de compra dominante
@@ -85,4 +85,46 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 ---
 
 ## 📦 Estructura del proyecto
+
+EDA-CreditCard-Portfolio/
+│
+├── notebooks/
+│ └── EDA_credit_card.ipynb
+│
+├── img/
+│ ├── heatmap.png
+│ ├── uso_credito.png
+│ ├── dominant_purchase.png
+│ └── minpay_ratio.png
+│
+└── README.md
+
+
+---
+
+## 💼 Aplicabilidad
+
+Este análisis puede ser reutilizado o adaptado para:
+
+- Fintechs que deseen comprender a sus clientes.
+- PYMEs con sistemas de crédito interno o programas de fidelización.
+- Empresas IT que implementan soluciones de scoring o customer segmentation.
+
+---
+
+## 👨‍💼 Autor
+
+**Ing. Facundo Reta**  
+Consultor en Ingeniería, Gestión de Proyectos y Análisis de Datos  
+📧 contacto: [freta@sanluis.edu.ar]  
+🌐 [www.tusitio.com](https://www.tusitio.com)
+
+---
+
+## ✅ Próximos pasos
+
+- Aplicar clustering no supervisado a los segmentos identificados.
+- Comparar comportamiento mensual vs anual.
+- Desarrollar dashboard interactivo en Power BI como complemento visual.
+
 
