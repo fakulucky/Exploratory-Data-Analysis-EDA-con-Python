@@ -1,17 +1,17 @@
-# 🧠 Exploratory Data Analysis (EDA) con Python
+# Exploratory Data Analysis (EDA) con Python
 Este proyecto forma parte de mi portfolio profesional como ingeniero consultor, enfocado en análisis de datos e ingeniería y gestión de proyectos.  Se realiza un **Análisis Exploratorio de Datos (EDA)** utilizando Python, orientado a comprender el comportamiento financiero de los clientes de una institución emisora de tarjetas de crédito.
 
 
  
 ### Proyecto de Portfolio | Consultoría en Ingeniería y Datos
 ---
-## 📌 Descripción
+## Descripción
 
 Este proyecto forma parte del portfolio profesional de la consultora **[Nombre de tu startup]**, enfocada en análisis de datos, ingeniería y gestión de proyectos. Se realiza un **Análisis Exploratorio de Datos (EDA)** utilizando Python, orientado a comprender el comportamiento financiero de los clientes de una institución emisora de tarjetas de crédito.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 - Realizar un análisis estadístico y visual completo de los datos.
 - Detectar patrones de comportamiento financiero, consumo y pago.
@@ -20,7 +20,7 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **🔗 Fuente**: Kaggle  
 **Título**: [Credit Card Dataset for Clustering](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)  
@@ -29,7 +29,7 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 ---
 
-## 🛠️ Herramientas utilizadas
+## Herramientas utilizadas
 
 - Python 3.x
 - Pandas
@@ -39,19 +39,19 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 ---
 
-## 📊 Proceso de Análisis
+## Proceso de Análisis
 
-### 1️⃣ Carga y limpieza de datos  
+### Carga y limpieza de datos  
 - Se imputaron valores faltantes con la mediana de cada variable.
 - Se crearon columnas derivadas para enriquecer el análisis.
 
-### 2️⃣ Análisis Univariado  
+### Análisis Univariado  
 - Distribuciones de variables clave como `BALANCE`, `PURCHASES`, `PAYMENTS`.
 
-### 3️⃣ Análisis Bivariado y Correlacional  
-- Se utilizó un **heatmap** para evaluar relaciones entre variables financieras.
+### Análisis Bivariado y Correlacional  
+- Se utilizó un **heatmap** para evaluar correlaciones entre variables financieras.
 
-![Heatmap](img/heatmap.png)
+![Heatmap](img/HeatmapCorrelation.png)
 
 ### 4️⃣ Feature Engineering  
 - Variables creadas:  
@@ -64,16 +64,16 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 ## 📈 Insights clave
 
 ### 📌 1. Uso elevado del crédito
-> El 28% de los clientes utiliza más del 80% de su límite disponible.
+> El 20% de los clientes utiliza más del 80% de su límite disponible.
 
 ![Pie chart](img/uso_credito.png)
    
 ---
 
 ### 📌 2. Comportamiento de compra dominante
-> El 63% de los clientes tiene compras en cuotas como su principal tipo de compra.
+> El 61% de los clientes tiene compras en cuotas como su principal tipo de compra.
 
-![Countplot](img/dominant_purchase.png)
+![Countplot](img/compra_dominante.png)
 
 ---
 
