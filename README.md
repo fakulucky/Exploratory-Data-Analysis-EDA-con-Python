@@ -51,7 +51,7 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 ### Análisis Bivariado y Correlacional  
 - Se utilizó un **heatmap** para evaluar correlaciones entre variables financieras.
 
-![Heatmap](img/HeatmapCorrelation.png)
+![Correlacion de variables](images/HeatmapCorrelation.png)
 
 ### 4️⃣ Feature Engineering  
 - Variables creadas:  
@@ -66,21 +66,21 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 ### 📌 1. Uso elevado del crédito
 > El 20% de los clientes utiliza más del 80% de su límite disponible.
 
-![Pie chart](img/uso_credito.png)
+![Uso crediticio](images/uso_credito.png)
    
 ---
 
 ### 📌 2. Comportamiento de compra dominante
 > El 61% de los clientes tiene compras en cuotas como su principal tipo de compra.
 
-![Countplot](img/compra_dominante.png)
+![Compra dominante](images/compra_dominante.png)
 
 ---
 
 ### 📌 3. Riesgo potencial por pagos mínimos bajos
 > Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
 
-![Histograma pagos mínimos](img/minpay_ratio.png)
+![Relacion de pagos minimos](images/minpay_ratio.png)
 
 ---
 
