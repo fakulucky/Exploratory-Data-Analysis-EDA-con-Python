@@ -1,13 +1,14 @@
-# Exploratory Data Analysis (EDA) con Python
-Este proyecto forma parte de mi portfolio profesional como ingeniero consultor, enfocado en análisis de datos e ingeniería y gestión de proyectos.  Se realiza un **Análisis Exploratorio de Datos (EDA)** utilizando Python, orientado a comprender el comportamiento financiero de los clientes de una institución emisora de tarjetas de crédito.
+# Análisis y Segmentación de Clientes de Tarjetas de Crédito
+Este proyecto combina **Análisis exploratorio de datos (EDA)** y técnicas de clustering para segmentar clientes de una entidad emisora de tarjetas de crédito. Utilizando Python, se identifican patrones de comportamiento financiero con el objetivo de comprender mejor a los distintos grupos de clientes y apoyar estrategias personalizadas orientadas a cada segmento.
 
+Forma parte de mi portfolio profesional como ingeniero consultor, con foco en análisis de datos, ingeniería y gestión de proyectos.
 
- 
-### Proyecto de Portfolio | Consultoría en Ingeniería y Datos
----
-## Descripción
+ ---
+## Resumen del Proyecto
 
-Este proyecto forma parte del portfolio profesional de la consultora **[Nombre de tu startup]**, enfocada en análisis de datos, ingeniería y gestión de proyectos. Se realiza un **Análisis Exploratorio de Datos (EDA)** utilizando Python, orientado a comprender el comportamiento financiero de los clientes de una institución emisora de tarjetas de crédito.
+Este proyecto comienza con un Análisis Exploratorio de Datos (EDA) para obtener una visión general del comportamiento financiero de los clientes. A continuación, se realiza la limpieza y el preprocesamiento de los datos, seguidos de una reducción de dimensionalidad mediante Análisis de Componentes Principales (PCA), con el fin de simplificar el modelo y minimizar el sobreajuste.
+
+Finalmente, se aplica un algoritmo de clustering (K-Means) para identificar grupos de clientes con características similares. El análisis revela 5 clusters diferenciados, lo que permite comprender mejor sus perfiles y potencialmente orientar estrategias específicas para cada segmento.
 
 ---
 
@@ -15,10 +16,25 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 - Realizar un análisis estadístico y visual completo de los datos.
 - Detectar patrones de comportamiento financiero, consumo y pago.
-- Identificar posibles segmentos de clientes para campañas o control de riesgo.
+- Identificar posibles segmentos de clientes para campañas o controles de riesgo.
 - Generar insights relevantes para la toma de decisiones en empresas del sector financiero o IT.
 
 ---
+
+## Estructura del proyecto
+
+EDA-CreditCard-Portfolio/
+│
+├── notebooks/
+│ └── EDA_credit_card.ipynb
+│
+├── img/
+│ ├── heatmap.png
+│ ├── uso_credito.png
+│ ├── dominant_purchase.png
+│ └── minpay_ratio.png
+│
+└── README.md
 
 ## Dataset
 
@@ -41,19 +57,19 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 ## Proceso de Análisis
 
-### Carga y limpieza de datos  
+### 1. Carga y limpieza de datos  
 - Se imputaron valores faltantes con la mediana de cada variable.
 - Se crearon columnas derivadas para enriquecer el análisis.
 
-### Análisis Univariado  
+### 2. Análisis Univariado  
 - Distribuciones de variables clave como `BALANCE`, `PURCHASES`, `PAYMENTS`.
 
-### Análisis Bivariado y Correlacional  
+### 3. Análisis Bivariado y Correlacional  
 - Se utilizó un **heatmap** para evaluar correlaciones entre variables financieras.
 
 ![Correlacion de variables](images/HeatmapCorrelation.png)
 
-### 4️⃣ Feature Engineering  
+### 4. Ingenieria de variables 
 - Variables creadas:  
   - `Balance_to_Limit` → Relación entre saldo y límite.
   - `Dominant_Purchase` → Tipo de compra predominante.
@@ -61,70 +77,51 @@ Este proyecto forma parte del portfolio profesional de la consultora **[Nombre d
 
 ---
 
-## 📈 Insights clave
+## 5. Insights clave
 
-### 📌 1. Uso elevado del crédito
-> El 20% de los clientes utiliza más del 80% de su límite disponible.
-
-![Uso crediticio](images/uso_credito.png)
-   
+  ### 1. Uso elevado del crédito
+  > El 20% de los clientes utiliza más del 80% de su límite disponible.
 ---
-
-### 📌 2. Comportamiento de compra dominante
-> El 61% de los clientes tiene compras en cuotas como su principal tipo de compra.
-
-![Compra dominante](images/compra_dominante.png)
-
+  ### 2. Comportamiento de compra dominante
+  > El 61% de los clientes tiene compras en cuotas como su principal tipo de compra.
 ---
-
-### 📌 3. Riesgo potencial por pagos mínimos bajos
-> Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
-
-![Relacion de pagos minimos](images/minpay_ratio.png)
-
+  ### 3. Riesgo potencial por pagos mínimos bajos
+  > Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
 ---
+## Aplicabilidad
 
-## 📦 Estructura del proyecto
-
-EDA-CreditCard-Portfolio/
-│
-├── notebooks/
-│ └── EDA_credit_card.ipynb
-│
-├── img/
-│ ├── heatmap.png
-│ ├── uso_credito.png
-│ ├── dominant_purchase.png
-│ └── minpay_ratio.png
-│
-└── README.md
-
-
----
-
-## 💼 Aplicabilidad
-
-Este análisis puede ser reutilizado o adaptado para:
+Este análisis puede ser reutilizado y/o adaptado para:
 
 - Fintechs que deseen comprender a sus clientes.
 - PYMEs con sistemas de crédito interno o programas de fidelización.
 - Empresas IT que implementan soluciones de scoring o customer segmentation.
 
 ---
+## Resumen del Proyecto
 
-## 👨‍💼 Autor
+Este proyecto aplica técnicas de análisis exploratorio y clustering sobre datos de clientes de una fintech emisora de tarjetas de crédito. Se identificaron tres segmentos bien diferenciados:
 
-**Ing. Facundo Reta**  
-Consultor en Ingeniería, Gestión de Proyectos y Análisis de Datos  
-📧 contacto: [freta@sanluis.edu.ar]  
-🌐 [www.tusitio.com](https://www.tusitio.com)
+- **Clúster 0**: Clientes con bajo nivel de compras y saldos moderados. Se sugiere fomentar su actividad con incentivos específicos.
+- **Clúster 1**: Clientes altamente activos, con altos saldos y límites de crédito. Representan un perfil valioso que requiere gestión estratégica.
+- **Clúster 2**: Clientes conservadores con bajo uso del crédito. Recomendable fortalecer el vínculo con herramientas educativas o ajustes graduales de crédito.
+
+El análisis se basó en visualizaciones (*boxplots*) de variables clave como `BALANCE`, `PURCHASES`, `PAYMENTS`, `CREDIT_LIMIT`, entre otras. El resultado brinda información útil para diseñar estrategias personalizadas orientadas a la retención, fidelización y control de riesgo.
 
 ---
 
-## ✅ Próximos pasos
+### **Conclusión**
+-Implicaciones Estratégicas
+Los resultados del clustering ofrecen una base sólida para la toma de decisiones estratégicas en la fintech:
 
-- Aplicar clustering no supervisado a los segmentos identificados.
-- Comparar comportamiento mensual vs anual.
-- Desarrollar dashboard interactivo en Power BI como complemento visual.
+Marketing Personalizado: La comprensión de los perfiles permite diseñar campañas específicas. Por ejemplo, el Clúster 1 podría recibir ofertas de productos premium, mientras que el Clúster 0 podría ser incentivado con promociones para aumentar su actividad de compra.
+Gestión de Riesgos: El Clúster 1, con mayores saldos y pagos, requiere un seguimiento más cercano para mitigar riesgos crediticios, mientras que el Clúster 2, con un comportamiento conservador, implica un riesgo menor.
+Desarrollo de Productos: Las necesidades de cada grupo sugieren oportunidades para nuevos productos, como herramientas de incentivo para el Clúster 0 o recursos educativos para el Clúster 2.
+En resumen, este análisis ha segmentado con éxito la base de clientes en tres grupos diferenciados: clientes de alta actividad (Clúster 1), clientes de baja actividad (Clúster 0) y clientes conservadores (Clúster 2). Estas conclusiones proporcionan a la fintech una guía clara para optimizar sus estrategias de marketing, gestión de riesgos y desarrollo de productos, mejorando así la satisfacción del cliente y el desempeño general del negocio.
 
+---
+## Autor
 
+**Ing. Facundo Reta**  
+Data Analyst, Project Manager Engineer  
+📧 contacto: [freta@sanluis.edu.ar]  
+🌐 [www.tusitio.com](https://www.tusitio.com)
