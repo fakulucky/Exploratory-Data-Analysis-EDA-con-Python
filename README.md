@@ -92,12 +92,12 @@ Este análisis puede ser reutilizado y/o adaptado para:
   > Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
 
 ### 7. Pipeline
-  ### 7.1 Pre procesamiento de datos
+  #### 7.1 Pre procesamiento de datos
   - Tratamiento de outliers
   - Escalamiento de datos
-  ### 7.2 Análisis de componentes principales (PCA)
+  #### 7.2 Análisis de componentes principales (PCA)
   - Descripcion de la varianza (Definicion de componentes)
-  ### 7.3 Clustering
+  #### 7.3 Clustering
   - Método Elbow (Codo) (k=3)
   - Método Silhouette y Davies Bouldin score (k=3)
   - K-Means
