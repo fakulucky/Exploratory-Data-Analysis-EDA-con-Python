@@ -80,17 +80,15 @@ Este análisis puede ser reutilizado y/o adaptado para:
   - `Dominant_Purchase` → Tipo de compra predominante.
   - `MinPay_ratio` → Proporción del pago mínimo respecto al saldo.
 
----
-
 ### 6. Insights clave
 
-  ### 6.1 Uso elevado del crédito
+  #### 6.1 Uso elevado del crédito
   > El 20.2% de los clientes utiliza más del 80% de su límite disponible.
----
-  ### 6.2 Comportamiento de compra dominante
+
+  #### 6.2 Comportamiento de compra dominante
   > El 61% de los clientes tiene compras en cuotas como su principal tipo de compra.
----
-  ### 6.3 Riesgo potencial por pagos mínimos bajos
+
+  #### 6.3 Riesgo potencial por pagos mínimos bajos
   > Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
 
 ### 7. Pipeline
