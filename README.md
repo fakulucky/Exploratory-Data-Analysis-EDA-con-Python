@@ -50,6 +50,15 @@ Contenido del repositorio:
 
 ---
 
+## Aplicabilidad
+
+Este análisis puede ser reutilizado y/o adaptado para:
+
+- Fintechs que deseen comprender a sus clientes.
+- PYMEs con sistemas de crédito interno o programas de fidelización.
+- Empresas IT que implementan soluciones de scoring o segmentación de clientes.
+---
+
 ## Proceso de Análisis y segmentación
 
 ### 1. Carga y descripción de datos  
@@ -97,16 +106,9 @@ Contenido del repositorio:
   - Boxplot variables / Cluster
 
 ## 8. Conclusion final - Implicaciones estratégicas
----
-## Aplicabilidad
-
-Este análisis puede ser reutilizado y/o adaptado para:
-
-- Fintechs que deseen comprender a sus clientes.
-- PYMEs con sistemas de crédito interno o programas de fidelización.
-- Empresas IT que implementan soluciones de scoring o customer segmentation.
 
 ---
+
 ## Conclusiones del Proyecto
 
 Este proyecto aplica técnicas de análisis exploratorio y clustering sobre datos de clientes de una fintech emisora de tarjetas de crédito. Se identificaron tres segmentos bien diferenciados:
