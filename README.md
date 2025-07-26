@@ -82,7 +82,7 @@ Este análisis puede ser reutilizado y/o adaptado para:
 
 ---
 
-## 6. Insights clave
+### 6. Insights clave
 
   ### 6.1 Uso elevado del crédito
   > El 20.2% de los clientes utiliza más del 80% de su límite disponible.
@@ -93,7 +93,7 @@ Este análisis puede ser reutilizado y/o adaptado para:
   ### 6.3 Riesgo potencial por pagos mínimos bajos
   > Una parte significativa de los clientes mantiene pagos mínimos muy bajos respecto a sus saldos, lo cual puede ser indicio de riesgo crediticio.
 
-## 7. Pipeline
+### 7. Pipeline
   ### 7.1 Pre procesamiento de datos
   - Tratamiento de outliers
   - Escalamiento de datos
@@ -105,7 +105,7 @@ Este análisis puede ser reutilizado y/o adaptado para:
   - K-Means
   - Boxplot variables / Cluster
 
-## 8. Conclusion final - Implicaciones estratégicas
+### 8. Conclusion final - Implicaciones estratégicas
 Este proyecto aplica técnicas de análisis exploratorio y clustering sobre datos de clientes de una fintech emisora de tarjetas de crédito. Se identificaron tres segmentos bien diferenciados:
 
 - **Clúster 0**: Clientes con bajo nivel de compras y saldos moderados. Se sugiere fomentar su actividad con incentivos específicos.
