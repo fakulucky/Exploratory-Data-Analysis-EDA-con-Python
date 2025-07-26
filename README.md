@@ -106,11 +106,6 @@ Este análisis puede ser reutilizado y/o adaptado para:
   - Boxplot variables / Cluster
 
 ## 8. Conclusion final - Implicaciones estratégicas
-
----
-
-## Conclusiones del Proyecto
-
 Este proyecto aplica técnicas de análisis exploratorio y clustering sobre datos de clientes de una fintech emisora de tarjetas de crédito. Se identificaron tres segmentos bien diferenciados:
 
 - **Clúster 0**: Clientes con bajo nivel de compras y saldos moderados. Se sugiere fomentar su actividad con incentivos específicos.
